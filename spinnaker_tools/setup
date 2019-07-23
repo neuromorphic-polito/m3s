@@ -1,0 +1,8 @@
+#!/bin/sh
+set -a
+SPINN_DIRS="$(readlink -e "$(dirname "${BASH_SOURCE[0]}")")"
+SPINN_PATH=$SPINN_DIRS/tools/boot
+PATH=$SPINN_DIRS/tools:$PATH
+PERL5LIB=$SPINN_DIRS/tools:$PERL5LIB
+chmod u+x $SPINN_DIRS/tools/*
+
