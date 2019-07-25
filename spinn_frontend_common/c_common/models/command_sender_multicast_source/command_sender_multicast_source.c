@@ -2,6 +2,7 @@
 #include <data_specification.h>
 #include <debug.h>
 #include <simulation.h>
+#include <string.h>
 
 // Globals
 static uint32_t time;
