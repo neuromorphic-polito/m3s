@@ -4,6 +4,7 @@
 #include <debug.h>
 #include <simulation.h>
 #include <spin1_api.h>
+#include <string.h>
 
 // Globals
 static sdp_msg_t g_event_message;
