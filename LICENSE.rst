@@ -35,7 +35,7 @@ in source form including its submodules the following additional
 license terms apply:
 
 SPINNAKER copyright
----------------
+-------------------
 ::
 
   Copyright (c) 20XX-2019, HEAD OF SPINNAKER SW
